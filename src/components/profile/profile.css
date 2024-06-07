@@ -1,0 +1,58 @@
+.profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.profile img{
+    margin-top: 150px;
+
+}
+.profile h1{
+    text-align: center;
+    width: 70%;
+    font-size: 58px;
+    font-weight: 600;
+}
+.profile h1 span{
+    background: linear-gradient(270deg, #DF8908 10%, #b415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.profile p{
+    width: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+}
+.profile-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.profile-connect{
+    padding: 16px 38px;
+    border-radius: 50px;
+    background: linear-gradient(264deg,#DF8908 -5.09%,#b415FF 100%);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.profile-connect:hover{
+    transform: scale(1.05);
+}
+.profile-resume{
+    padding: 16px 38px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.profile-resume:hover{
+    transform: scale(1.05);
+    border-color: #b415FF;
+}

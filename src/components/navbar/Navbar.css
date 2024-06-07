@@ -1,0 +1,40 @@
+
+.Navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 20px 170px;
+}
+.nav-menu{
+    display: flex;
+align-items: center;
+gap: 60px;
+font-size: 20px; 
+   list-style-type: none;
+
+}
+.nav-connect{
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 22px;
+    cursor: pointer;
+    background: linear-gradient(267deg, #DA7C25 0.36%,#B923E1);
+    transition: 0.5s;
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.nav-menu li img{
+    display: flex;
+    margin: auto;
+}
+.anchor-link{
+ text-decoration: none;
+ color: white;
+}
