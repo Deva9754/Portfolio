@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     <div className="profile">
       <img
-        src="https://d38b044pevnwc9.cloudfront.net/cutout-nuxt/passport/1-change1.jpg"
+        src="https://img.freepik.com/free-vector/3d-cartoon-young-woman-smiling-circle-frame-character-illustration-vector-design_40876-3100.jpg?t=st=1717847349~exp=1717850949~hmac=bd3146252be5548c75cc3e08df130daf731afa2ec8b12cb34a24f8f84c736f63&w=740"
         alt="profile_img"
       />
       <h1>
