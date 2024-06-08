@@ -1,5 +1,4 @@
 import "./Navbar.css";
-import logo from "../../assets/logo.svg";
 import abc from "../../assets/nav_underline.svg";
 
 import { useState } from "react";
@@ -9,7 +8,7 @@ const Navbar = () => {
   const [image, setImage] = useState("home");
   return (
     <div className="Navbar">
-      <img src={logo} alt="Logo" />
+      <img src="" alt="Logo" />
       <ul className="nav-menu">
         <li>
           <p onClick={() => setImage("home")}>Home</p>
@@ -32,7 +31,9 @@ const Navbar = () => {
           {image === "Contact" ? <img src={abc} alt="" /> : <></>}
         </li>
         <li>
-          <p onClick={() => setImage("Portfolio")}>Portfolio</p>
+          <AnchorLink className="anchor-link" offset={50} href="#Portfolio">
+            <p onClick={() => setImage("Portfolio")}>Portfolio</p>
+          </AnchorLink>
           {image === "Portfolio" ? <img src={abc} alt="" /> : <></>}
         </li>
       </ul>
