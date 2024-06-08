@@ -1,9 +1,10 @@
-// import About from "./components/about/About";
+import About from "./components/about/About";
 import SocilaLinks from "./components/SocialLinks";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Profile from "./components/profile/Profile";
+import Portfolio from "./portfolio/Portfolio";
 
 const App = () => {
   return (
@@ -11,9 +12,10 @@ const App = () => {
       <Navbar />
       <Profile />
       <SocilaLinks />
+      <Portfolio />
+      <About />
       <Contact />
       <Footer />
-      {/* <About /> */}
     </div>
   );
 };
