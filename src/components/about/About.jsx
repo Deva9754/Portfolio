@@ -1,50 +1,25 @@
 import "./About.css";
-import theme from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/about_profile.svg";
+import cursor from "../../assets/cursorIcon.png";
+import image from "../../assets/aboutImage.png";
+
 const About = () => {
   return (
-    <div className="about">
-      <div className="about-title">
-        <h1>ABout me</h1>
-        <img src={theme} alt="theme" />
+    <div className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
+      <div className=" px-8">
+        <h2 className=" px-14 text-4xl font-bold inline border-b-4 border-gray-500">
+          About
+        </h2>
       </div>
-      <div className="about-section">
-        <div className="about-left">
-          <img src={profile_img} alt="profile_img" />
-        </div>
-        <div className="about-right">
-          <div className="about-para">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates repellat rem numquam accusantium dolor nemo, at
-              temporibus optio, culpa animi hic, deserunt asperiores provident.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptates repellat rem numquam accusantium dolor nemo, at
-              temporibus optio, culpa animi hic, deserunt asperiores provident.
-            </p>
-          </div>
-          <div className="about-skills">
-            <div className="about-skills">
-              <p>HTML & CSS</p> <hr style={{ width: "50%" }} />
-            </div>
-            <div className="about-skills">
-              <p>React</p> <hr style={{ width: "70%" }} />
-            </div>
-            <div className="about-skills">
-              <p>Javascript</p> <hr style={{ width: "60%" }} />
-            </div>
-            <div className="about-skills">
-              <p>TailWind & Bootstrap</p> <hr style={{ width: "50%" }} />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="about-achievemnet">
-        <div className="about-achievement">
-          <h1>2+</h1>
-          <p>YEARS OF EXPERIENCE</p>
+
+      <div className="content">
+        <img className="about-image" src={image} alt="image_about" />
+        <img src={cursor} alt="" />
+        <div className="about-item-text">
+          <h3>Frontend Developer</h3>
+          <p>
+            I`m a frontend developer with experience in building and optimized
+            sites.
+          </p>
         </div>
       </div>
     </div>
