@@ -5,6 +5,7 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import Profile from "./components/profile/Profile";
 import Portfolio from "./portfolio/Portfolio";
+import Experience from "./experience/Experience";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <SocilaLinks />
       <Portfolio />
       <About />
+      <Experience />
       <Contact />
       <Footer />
     </div>
