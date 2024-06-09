@@ -1,25 +1,44 @@
 import "./Navbar.css";
 import abc from "../../assets/nav_underline.svg";
-
-import { useState } from "react";
+import menuopen from "../../assets/menu_open.svg";
+import menuclose from "../../assets/menu_close.svg";
+import { useRef, useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Navbar = () => {
   const [image, setImage] = useState("home");
+  const menuRef = useRef();
+  const openMenu = () => {
+    menuRef.current.style.right = "0";
+  };
+  const closeMenu = () => {
+    menuRef.current.style.right = "-350px";
+  };
   return (
     <div className="Navbar">
       <img src="" alt="Logo" />
-      <ul className="nav-menu">
+      <img src={menuopen} onClick={openMenu} alt="" className="nav-mob-open" />
+      <ul ref={menuRef} className="nav-menu">
+        <img
+          src={menuclose}
+          onClick={closeMenu}
+          alt=""
+          className="nav-mob-close"
+        />
         <li>
           <p onClick={() => setImage("home")}>Home</p>
           {image === "home" ? <img src={abc} alt="" /> : <></>}
         </li>
         <li>
-          <p onClick={() => setImage("services")}>Services</p>
-          {image === "services" ? <img src={abc} alt="" /> : <></>}
+          <AnchorLink className="anchor-link" offset={50} href="#experience">
+            <p onClick={() => setImage("experince")}>Experience</p>
+          </AnchorLink>
+          {image === "experience" ? <img src={abc} alt="" /> : <></>}
         </li>
         <li>
-          <p onClick={() => setImage("About Me")}>About Me</p>
+          <AnchorLink className="anchor-link " offset={50} href="#About">
+            <p onClick={() => setImage("About Me")}>About Me</p>
+          </AnchorLink>
           {image === "About Me" ? <img src={abc} alt="" /> : <></>}
         </li>
         <li>
