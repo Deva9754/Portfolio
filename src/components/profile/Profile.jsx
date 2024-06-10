@@ -1,6 +1,7 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./profile.css";
 import profile from "../../assets/profile.jpeg";
+import Container from "../container/Container";
 const Profile = () => {
   const openPDF = () => {
     // Assuming your PDF file is named "example.pdf" and is located in the "public" folder
@@ -11,35 +12,35 @@ const Profile = () => {
   };
 
   return (
-    <div className="profile ">
-      <img className="image-eff" src={profile} alt="profile_img" />
-      <h1>
-        {" "}
-        <span>I&apos;m Devashish Sahu</span> Frontend developer.
-      </h1>
-      <p>
-        As a dedicated Frontend Developer at Wipro since 2022, I specialize in
-        crafting immersive user experiences using ReactJS, Redux, and
-        JavaScript. I pay meticulous attention to detail in HTML and CSS, and
-        leverage tools like Tailwind CSS and Material-UI for optimal performance
-        and aesthetic appeal. I also excel in data visualization with D3.js and
-        ensure seamless component integration through Storybook.{" "}
-        {/*  My tenure at
-        Wipro has empowered me to deliver innovative solutions while honing my
-        expertise in frontend development.  */}
-      </p>
-      <div className="profile-action">
-        <div className="profile-connect">
+    <Container>
+      <div className="profile ">
+        <img className="image-eff" src={profile} alt="profile_img" />
+        <h1>
           {" "}
-          <AnchorLink href="#contact" className="anchor-link" offset={50}>
-            Connect with me{" "}
-          </AnchorLink>
-        </div>
-        <div className="profile-resume" onClick={openPDF}>
-          Resume
+          <span>I&apos;m Devashish Sahu</span> Frontend developer.
+        </h1>
+        <p>
+          Experienced Frontend Developer at Wipro adept in crafting immersive
+          user interfaces with ReactJS, Redux, and JavaScript. Proficient in
+          HTML/CSS with tools like Tailwind CSS and Material-UI, and skilled in
+          data visualization using D3.js. Ensures seamless component integration
+          through Storybook for optimal performance and aesthetic appeal. My
+          tenure at Wipro has empowered me to deliver innovative solutions while
+          honing my expertise in frontend development.
+        </p>
+        <div className="profile-action">
+          <div className="profile-connect">
+            {" "}
+            <AnchorLink href="#contact" className="anchor-link" offset={50}>
+              Connect with me{" "}
+            </AnchorLink>
+          </div>
+          <div className="profile-resume" onClick={openPDF}>
+            Resume
+          </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 
