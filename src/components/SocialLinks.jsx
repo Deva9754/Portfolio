@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Container from "./container/Container";
 
 const SocialLinks = () => {
   const links = [
@@ -46,28 +47,30 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="flex flex-col top-[35%] right-0 fixed">
-      <ul>
-        {links.map(({ id, child, href, style, download }) => (
-          <li
-            key={id}
-            className={
-              "flex justify-between items-center w-40 h-14 px-4 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-300 bg-gray-500" +
-              "" +
-              style
-            }
-          >
-            <a
-              href={href}
-              className="flex justify-between items-center w-full text-white"
-              download={download}
+    <Container>
+      <div className="flex flex-col top-[35%] right-0 fixed">
+        <ul>
+          {links.map(({ id, child, href, style, download }) => (
+            <li
+              key={id}
+              className={
+                "flex justify-between items-center w-40 h-14 px-4 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+                "" +
+                style
+              }
             >
-              {child}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </div>
+              <a
+                href={href}
+                className="flex justify-between items-center w-full text-white"
+                download={download}
+              >
+                {child}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </Container>
   );
 };
 
