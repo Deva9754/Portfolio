@@ -1,8 +1,7 @@
 .footer{
-    margin: 50px 170px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 18px;
 
 }
 .footer-top{
@@ -63,12 +62,9 @@ padding-right: 80px;
     transition: 0.3s;
 }
 @media(max-width:768px){
-    .footer{
-        margin: 50px 70px;
-    }
+    
     .footer-top{
         flex-direction: column;
-        gap: 50px;
     }
     .footer-bottom{
         display: flex;
