@@ -18,10 +18,21 @@ const About = () => {
         <img className="about-image" src={image} alt="image_about" />
         <img src={cursor} alt="" />
         <div className="about-item-text aboutItem">
-          <h3 className=" font-bold">Frontend Developer</h3>
+          <h3 className=" font-bold">
+            Frontend Developer at Wipro (May 2022 - Present)
+          </h3>
           <p>
-            I`m a frontend developer with experience in building and optimized
-            sites.
+            As a dedicated Frontend Developer at Wipro since 2022, I&apos;ve
+            spearheaded projects utilizing an array of cutting-edge
+            technologies. My primary focus lies in crafting immersive user
+            experiences through ReactJS, Redux, and JavaScript, coupled with
+            meticulous attention to detail in HTML and CSS. Leveraging tools
+            like Tailwind CSS and Material-UI, I&apos;ve refined interfaces for
+            optimal performance and aesthetic appeal. Additionally, my
+            proficiency extends to data visualization with D3.js and ensuring
+            seamless component integration through Storybook. My tenure at Wipro
+            has empowered me to deliver innovative solutions while honing my
+            expertise in frontend development.
           </p>
         </div>
       </div>
