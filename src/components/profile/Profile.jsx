@@ -11,8 +11,8 @@ const Profile = () => {
   };
 
   return (
-    <div className="profile">
-      <img src={profile} alt="profile_img" />
+    <div className="profile ">
+      <img className="image-eff" src={profile} alt="profile_img" />
       <h1>
         {" "}
         <span>I`m Devashish Sahu</span> Frontend developer.

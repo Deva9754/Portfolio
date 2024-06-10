@@ -1,4 +1,5 @@
 import "./Portfolio.css";
+import { FaGithub } from "react-icons/fa";
 
 const Portfolio = () => {
   const projects = [
@@ -8,7 +9,7 @@ const Portfolio = () => {
         "https://static-00.iconduck.com/assets.00/messenger-icon-512x511-wsdhvs0c.png",
       description:
         "Developed a real-time chat application using Socket.IO for instant communication, featuring user authentication and message broadcasting between clients.",
-      skills: ["React", "socket.io", "Node"],
+      skills: ["React", "socket.io", "Node", "Tailwind"],
       demo: "",
       source: "https://github.com/Deva9754/Chatify/tree/master",
     },
@@ -18,7 +19,7 @@ const Portfolio = () => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_KbSaAU0XA2XTjF9pkm7-5R9j8KbWbuOgdg&s",
       description:
         "Build a Flipkart clone, replicating the e-commerce platform's functionalities, including product listings, user authentication, and shopping cart management. ",
-      skills: ["React", "redux-toolkit", "MUI", "Sass"],
+      skills: ["React", "MUI", "Sass", "redux-toolkit"],
       demo: "https://flipkartclone-devashish-sahus-projects.vercel.app/",
       source: "https://github.com/Deva9754/Flipkart",
     },
@@ -28,7 +29,7 @@ const Portfolio = () => {
         "https://a0.anyrgb.com/pngimg/906/338/windows-movie-maker-freemake-video-downloader-visual-effects-film-editing-video-editing-filmmaking-music-video-editing-coin-icon-design-thumbnail.png",
       description:
         "Designed a movie streaming application integrating GPT-powered chatbots for personalized recommendations, enhancing user engagement and satisfaction.",
-      skills: ["React", "MUI", "Redux-toolkit"],
+      skills: ["React", "Redux-toolkit", "MUI", "Tailwind"],
       demo: "https://netflixgpt-omega.vercel.app/",
       source: "https://github.com/Deva9754/Netflixgpt",
     },
@@ -65,7 +66,13 @@ const Portfolio = () => {
             </div>
           );
         })}
-        <span>More..</span>
+        <a
+          className="anchor-link"
+          offset={50}
+          href="https://github.com/Deva9754?tab=repositories"
+        >
+          <FaGithub size={30} /> More..
+        </a>
       </div>
     </div>
   );
