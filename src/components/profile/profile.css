@@ -8,7 +8,7 @@
     margin-top: 150px;
     height: 250px;
     width: 250px;
-    border-radius: 50%;
+    border-radius: 48%;
    
 
 
@@ -58,7 +58,6 @@
     -webkit-text-fill-color: transparent;
 }
 .profile p{
-    width: 50%;
     text-align: center;
     font-size: 24px;
     line-height: 40px;
@@ -104,7 +103,6 @@
         font-size: 50px;
     }
     .profile p{
-        width: 60%;
         font-size: 18px;
         line-height: 32px;
         margin: 10px 0px;
