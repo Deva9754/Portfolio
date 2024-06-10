@@ -2,13 +2,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
-const SocilaLinks = () => {
+const SocialLinks = () => {
   const links = [
     {
       id: 1,
       child: (
         <>
-          LinkedIn <FaLinkedin size={30} />
+          <FaLinkedin size={30} /> LinkedIn
         </>
       ),
       href: "https://linkedin.com",
@@ -18,7 +18,7 @@ const SocilaLinks = () => {
       id: 2,
       child: (
         <>
-          Github <FaGithub size={30} />
+          <FaGithub size={30} /> Github
         </>
       ),
       href: "https://github.com/Deva9754",
@@ -27,7 +27,7 @@ const SocilaLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <HiOutlineMail size={30} />
+          <HiOutlineMail size={30} /> Mail
         </>
       ),
       href: "mailto:foo@gmail.com",
@@ -36,7 +36,7 @@ const SocilaLinks = () => {
       id: 4,
       child: (
         <>
-          Resume <BsFillPersonLinesFill size={30} />
+          <BsFillPersonLinesFill size={30} /> Resume
         </>
       ),
       href: "/Devashish_sahu_Resume_frontend (2).pdf",
@@ -44,14 +44,15 @@ const SocilaLinks = () => {
       download: true,
     },
   ];
+
   return (
-    <div className=" flex flex-col top-[35%] left-0 fixed">
+    <div className="flex flex-col top-[35%] right-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+              "flex justify-between items-center w-40 h-14 px-4 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-300 bg-gray-500" +
               "" +
               style
             }
@@ -69,4 +70,5 @@ const SocilaLinks = () => {
     </div>
   );
 };
-export default SocilaLinks;
+
+export default SocialLinks;

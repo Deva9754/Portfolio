@@ -31,7 +31,7 @@
     grid-area: 30px;
 }
 .contact-left h1{
-    font-size: 80px;
+    font-size: 58px;
     font-weight: 700;
     background: linear-gradient(270deg,#DF8908 80%,#B415FF 100%);
     background-clip: text;
@@ -97,7 +97,7 @@ font-size: 22px;
     border-radius: 50px;
     background: linear-gradient(270deg,#DF8908 80%,#B415FF 100%);
 font-size: 22px;
-padding: 20px 60px;
+padding: 5px 28px;
 margin-bottom: 50px;
 cursor: pointer;
 transition: 0.3s;

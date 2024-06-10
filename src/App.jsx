@@ -1,4 +1,4 @@
-import About from "./components/about/About";
+// import About from "./components/about/About";
 import SocilaLinks from "./components/SocialLinks";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
@@ -13,9 +13,9 @@ const App = () => {
       <Navbar />
       <Profile />
       <SocilaLinks />
-      <Portfolio />
-      <About />
       <Experience />
+      <Portfolio />
+      {/* <About /> */}
       <Contact />
       <Footer />
     </div>
