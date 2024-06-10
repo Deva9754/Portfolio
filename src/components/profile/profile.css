@@ -6,6 +6,9 @@
 }
 .profile img{
     margin-top: 150px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
 
 }
 .profile h1{
