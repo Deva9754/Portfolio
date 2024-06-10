@@ -74,7 +74,7 @@ const Experience = () => {
           <p className="py-6">These are the technologies I`ve worked with.</p>
         </div>
 
-        <div className="w-full flex  gap-8 text-center py-8 px-12 sm:px-0 flex-wrap justify-center">
+        <div className="w-full flex  gap-8 text-center py-8  sm:px-0 flex-wrap justify-center">
           {tech.map(({ id, src, title, style }) => (
             <div
               key={id}
