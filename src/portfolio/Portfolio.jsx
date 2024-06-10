@@ -65,6 +65,7 @@ const Portfolio = () => {
             </div>
           );
         })}
+        <span>More..</span>
       </div>
     </div>
   );
