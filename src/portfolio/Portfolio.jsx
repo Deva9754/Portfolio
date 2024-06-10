@@ -1,3 +1,4 @@
+import Container from "../components/container/Container";
 import "./Portfolio.css";
 import { FaGithub } from "react-icons/fa";
 
@@ -35,46 +36,48 @@ const Portfolio = () => {
     },
   ];
   return (
-    <div className="container" id="projects">
-      <h2 className="text-4xl font-bold inline border-b-4 border-gray-500">
-        Projects
-      </h2>
-      <div className="projects">
-        {projects.map((project, id) => {
-          return (
-            <div key={id} className="container-card">
-              <img src={project.imageSrc} alt="img" className="image" />
-              <h3 className="title">{project.title}</h3>
-              <p className="description">{project.description}</p>
-              <ul className="skills">
-                {project.skills.map((skill, id) => {
-                  return (
-                    <li key={id} className="skill">
-                      {skill}
-                    </li>
-                  );
-                })}
-              </ul>
-              <div className="links">
-                <a href={project.demo} className="link">
-                  Demo
-                </a>
-                <a href={project.source} className="link">
-                  Source
-                </a>
+    <Container>
+      <div className="container" id="projects">
+        <h2 className="text-4xl font-bold inline border-b-4 border-gray-500">
+          Projects
+        </h2>
+        <div className="projects">
+          {projects.map((project, id) => {
+            return (
+              <div key={id} className="container-card">
+                <img src={project.imageSrc} alt="img" className="image" />
+                <h3 className="title">{project.title}</h3>
+                <p className="description">{project.description}</p>
+                <ul className="skills">
+                  {project.skills.map((skill, id) => {
+                    return (
+                      <li key={id} className="skill">
+                        {skill}
+                      </li>
+                    );
+                  })}
+                </ul>
+                <div className="links">
+                  <a href={project.demo} className="link">
+                    Demo
+                  </a>
+                  <a href={project.source} className="link">
+                    Source
+                  </a>
+                </div>
               </div>
-            </div>
-          );
-        })}
-        <a
-          className="anchor-link"
-          offset={50}
-          href="https://github.com/Deva9754?tab=repositories"
-        >
-          <FaGithub size={30} /> More..
-        </a>
+            );
+          })}
+          <a
+            className="anchor-link"
+            offset={50}
+            href="https://github.com/Deva9754?tab=repositories"
+          >
+            <FaGithub size={30} /> More..
+          </a>
+        </div>
       </div>
-    </div>
+    </Container>
   );
 };
 export default Portfolio;
