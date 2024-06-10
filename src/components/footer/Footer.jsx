@@ -1,5 +1,6 @@
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Footer.css";
-import footer_logo from "../../assets/footer_logo.svg";
+// import footer_logo from "../../assets/footer_logo.svg";
 // import user_icon from "../../assets/user_icon.svg";
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-top">
           <div className="footer-top-left">
-            <img src={footer_logo} alt="footer-logo" />
+            <img src="" alt="footer-logo" />
             <p>Front-end Developer with 2+ years of experience at wipro </p>
           </div>
           <div className="top-right">
@@ -26,7 +27,10 @@ const Footer = () => {
           <div className="footer-bottom-right">
             <p>Term of services</p>
             <p> Privacy Policy</p>
-            <p>Connect with me</p>
+            <AnchorLink className="anchor-link" offset={50} href="#contact">
+              {" "}
+              <p>Connect with me</p>{" "}
+            </AnchorLink>
           </div>
         </div>
       </div>
