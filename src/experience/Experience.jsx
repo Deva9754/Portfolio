@@ -7,6 +7,7 @@ import github from "../assets/github.png";
 import mui from "../assets/logo.png";
 import bootstrap from "../assets/bootstrap.png";
 import D3 from "../assets/D3.png";
+import Container from "../components/container/Container";
 const Experience = () => {
   const tech = [
     {
@@ -65,32 +66,34 @@ const Experience = () => {
     },
   ];
   return (
-    <div id="experience" name="experince">
-      <div className=" p-4 flex flex-col justify-center w-full h-full text-white">
-        <div>
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Experience
-          </p>
-          <p className="py-6">These are the technologies I`ve worked with.</p>
-        </div>
+    <Container>
+      <div id="experience" name="experince">
+        <div className=" p-4 flex flex-col justify-center w-full h-full text-white">
+          <div>
+            <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+              Experience
+            </p>
+            <p className="py-6">These are the technologies I`ve worked with.</p>
+          </div>
 
-        <div className="w-full flex  gap-8 text-center py-8  sm:px-0 flex-wrap justify-center">
-          {tech.map(({ id, src, title, style }) => (
-            <div
-              key={id}
-              className={` relative p-3 shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} `}
-            >
-              <img
-                className="h-24 w-24 rounded-lg   md-h-full md-w-full "
-                src={src}
-                alt="Tech icons"
-              />
-              <p className=" mt-4">{title}</p>
-            </div>
-          ))}
+          <div className="w-full flex  gap-8 text-center py-8  sm:px-0 flex-wrap justify-center">
+            {tech.map(({ id, src, title, style }) => (
+              <div
+                key={id}
+                className={` relative p-3 shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style} `}
+              >
+                <img
+                  className="h-24 w-24 rounded-lg   md-h-full md-w-full "
+                  src={src}
+                  alt="Tech icons"
+                />
+                <p className=" mt-4">{title}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </Container>
   );
 };
 export default Experience;
