@@ -10,7 +10,7 @@ body{
   height: 100vh;
   background: rgb(105,104,119);
   background: linear-gradient(90deg, rgba(105,104,119,1) 2%, rgba(10,10,51,1) 69%);
-  padding: 8px;
+  padding: 12px;
   
   color: white;
   font-family:'Roboto';
