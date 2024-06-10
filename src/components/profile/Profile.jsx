@@ -15,7 +15,7 @@ const Profile = () => {
       <img className="image-eff" src={profile} alt="profile_img" />
       <h1>
         {" "}
-        <span>I`m Devashish Sahu</span> Frontend developer.
+        <span>I&apos;m Devashish Sahu</span> Frontend developer.
       </h1>
       <p>
         As a dedicated Frontend Developer at Wipro since 2022, I specialize in
