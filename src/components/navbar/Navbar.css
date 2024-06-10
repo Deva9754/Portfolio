@@ -1,9 +1,10 @@
 
-.Navbar{
+.navbar{
 display: flex;
 align-items: center;
-justify-content: space-between;
-margin: 20px 170px;
+justify-content: space-around;
+position: relative;
+/* margin: 20px 170px; */
 }
 .nav-menu{
     display: flex;
@@ -14,7 +15,7 @@ font-size: 20px;
 
 }
 .nav-connect{
-    padding: 20px 40px;
+    padding: 14px 19px;
     border-radius: 50px;
     font-size: 22px;
     cursor: pointer;
@@ -47,15 +48,15 @@ font-size: 20px;
 
 @media(max-width:768px){
     .navbar{
-        margin: 20px 50px;;
+        padding: 16px;
     }
     .nav-connect{
         display: none;
     }
     .nav-mob-open{
         display: block;
-        position: fixed;
-        right: 30px;
+        position: absolute;
+       right: 0;
     }
     .nav-mob-close{
         display: block;
@@ -71,11 +72,12 @@ font-size: 20px;
         top: 0;
         gap: 30px;
         background-color: #1F0016;
-        width: 350px;
-        height: 100%;
+        width: 0px;
+        height: 100vh;
         z-index: 2;
-        transition: right 0.5s;
-        right: -350px;
+        transition: width 0.5s;
+        right: 0;
+        overflow: hidden;
     }
     .nav-menu li{
         font-size: 30px;
