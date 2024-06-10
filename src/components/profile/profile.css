@@ -7,6 +7,8 @@
 .profile img{
     margin-top: 150px;
     height: 250px;
+    object-fit: cover;
+
     width: 250px;
     border-radius: 48%;
    
@@ -95,6 +97,8 @@
 @media(max-width:768px){
     .profile img{
         margin-top: 120px;
+        object-fit: cover;
+
         width: 260px;
     }
     .profile h1{
