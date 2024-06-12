@@ -1,8 +1,7 @@
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./Footer.css";
 import Container from "../container/Container";
-// import footer_logo from "../../assets/footer_logo.svg";
-// import user_icon from "../../assets/user_icon.svg";
+
 const Footer = () => {
   return (
     <Container>
