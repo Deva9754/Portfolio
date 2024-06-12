@@ -4,10 +4,8 @@ import profile from "../../assets/profile.jpeg";
 import Container from "../container/Container";
 const Profile = () => {
   const openPDF = () => {
-    // Assuming your PDF file is named "example.pdf" and is located in the "public" folder
     var pdfPath = "/Devashish_sahu_Resume_frontend (2).pdf";
 
-    // Open the PDF in a new tab
     window.open(pdfPath, "_blank");
   };
 
