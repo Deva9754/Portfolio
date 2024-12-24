@@ -18,13 +18,14 @@ const Profile = () => {
           <span>I&apos;m Devashish Sahu</span> Frontend developer.
         </h1>
         <p>
-          Experienced Frontend Developer at Wipro adept in crafting immersive
-          user interfaces with ReactJS, Redux, and JavaScript. Proficient in
-          HTML/CSS with tools like Tailwind CSS and Material-UI, and skilled in
-          data visualization using D3.js. Ensures seamless component integration
-          through Storybook for optimal performance and aesthetic appeal. My
-          tenure at Wipro has empowered me to deliver innovative solutions while
-          honing my expertise in frontend development.
+          Experienced Frontend Developer with 2.8+ years of expertise, currently
+          working at Infinit Locus. currently worked on SuperTails, a
+          product-based application, delivering high-quality frontend solutions.
+          Skilled in building responsive user interfaces and optimizing
+          performance. Proficient in ReactJS, Redux, JavaScript, HTML/CSS,
+          D3.js, and styling frameworks like Tailwind CSS and Material-UI. Adept
+          at integrating components using Storybook to ensure seamless user
+          experiences.
         </p>
         <div className="profile-action">
           <div className="profile-connect">
