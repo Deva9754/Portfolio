@@ -15,6 +15,15 @@ const Portfolio = () => {
       source: "https://github.com/Deva9754/Chatify/tree/master",
     },
     {
+      title: "HealthBuddy",
+      imageSrc: "https://i.ytimg.com/vi/TkHxyR75vZE/maxresdefault.jpg",
+      description:
+        "Build a Flipkart clone, replicating the e-commerce platform's functionalities, including product listings, user authentication, and shopping cart management. ",
+      skills: ["React", "MUI", "Sass", "redux-toolkit"],
+      demo: "https://health-buddy-git-main-devashish-sahus-projects.vercel.app",
+      source: "https://github.com/Deva9754/HealthBuddy",
+    },
+    {
       title: "Flipkart-clone",
       imageSrc:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_KbSaAU0XA2XTjF9pkm7-5R9j8KbWbuOgdg&s",
@@ -24,6 +33,7 @@ const Portfolio = () => {
       demo: "https://flipkartclone-devashish-sahus-projects.vercel.app/",
       source: "https://github.com/Deva9754/Flipkart",
     },
+
     {
       title: "Movie_Stream App",
       imageSrc:
