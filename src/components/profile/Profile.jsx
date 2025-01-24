@@ -50,6 +50,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./profile.css";
 import profile from "../../assets/profile.jpeg";
 import Container from "../container/Container";
+import TextSlider from "../textSlider/TextSlider";
 
 const Profile = () => {
   const openPDF = () => {
@@ -65,6 +66,7 @@ const Profile = () => {
           {" "}
           <span>I&apos;m Devashish Sahu</span> Frontend Developer.
         </h1>
+        <TextSlider/>
         <p>
         I’m a skilled Frontend Developer with over 2.8 years of hands-on experience,
          currently working with Infinit Locus. I’ve contributed to the development of SuperTails,
