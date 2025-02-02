@@ -17,21 +17,7 @@
 //           {" "}
 //           <span>I&apos;m Devashish Sahu</span> Frontend developer.
 //         </h1>
-//         <p>
-//           Experienced Frontend Developer with 2.8+ years of expertise, currently
-//           working at Infinit Locus. currently worked on SuperTails, a
-//           product-based application, delivering high-quality frontend solutions.
-//           Skilled in building responsive user interfaces and optimizing
-//           performance. Proficient in ReactJS, Redux, JavaScript, HTML/CSS,
-//           D3.js, and styling frameworks like Tailwind CSS and Material-UI. Adept
-//           at integrating components using Storybook to ensure seamless user
-//           experiences.
-//         </p>
-//         <div className="profile-action">
-//           <div className="profile-connect">
-
-
-// export default Profile;
+//        
 
 
 import AnchorLink from "react-anchor-link-smooth-scroll";
