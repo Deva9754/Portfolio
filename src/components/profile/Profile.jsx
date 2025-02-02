@@ -29,19 +29,7 @@
 //         </p>
 //         <div className="profile-action">
 //           <div className="profile-connect">
-//             {" "}
-//             <AnchorLink href="#contact" className="anchor-link" offset={50}>
-//               Connect with me{" "}
-//             </AnchorLink>
-//           </div>
-//           <div className="profile-resume" onClick={openPDF}>
-//             Resume
-//           </div>
-//         </div>
-//       </div>
-//     </Container>
-//   );
-// };
+
 
 // export default Profile;
 
