@@ -9,15 +9,7 @@
 //     window.open(pdfPath, "_blank");
 //   };
 
-//   return (
-//     <Container>
-//       <div className="profile ">
-//         <img className="image-eff" src={profile} alt="profile_img" />
-//         <h1>
-//           {" "}
-//           <span>I&apos;m Devashish Sahu</span> Frontend developer.
-//         </h1>
-//        
+
 
 
 import AnchorLink from "react-anchor-link-smooth-scroll";
