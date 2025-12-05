@@ -17,7 +17,7 @@ import TextSlider from "../textSlider/TextSlider";
 
 const Profile = () => {
   const openPDF = () => {
-    var pdfPath = "/Devashish_resume_reactjs.pdf";
+    var pdfPath = "/Devashish_Resume.pdf";
     window.open(pdfPath, "_blank");
   };
 

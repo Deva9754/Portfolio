@@ -40,7 +40,7 @@ const SocialLinks = () => {
           <BsFillPersonLinesFill size={30} /> Resume
         </>
       ),
-      href: "/Devashish_resume_reactjs.pdf",
+      href: "/Devashish_Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },
@@ -57,13 +57,11 @@ const SocialLinks = () => {
                 "flex justify-between items-center w-40 h-14 px-4 mr-[-100px] hover:mr-[-10px] hover:rounded-md duration-300 bg-gray-500" +
                 "" +
                 style
-              }
-            >
+              }>
               <a
                 href={href}
                 className="flex justify-between items-center w-full text-white"
-                download={download}
-              >
+                download={download}>
                 {child}
               </a>
             </li>

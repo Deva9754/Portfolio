@@ -81,8 +81,7 @@ const Portfolio = () => {
           <a
             className="anchor-link"
             offset={50}
-            href="https://github.com/Deva9754?tab=repositories"
-          >
+            href="https://github.com/Deva9754?tab=repositories">
             <FaGithub size={30} /> More..
           </a>
         </div>
