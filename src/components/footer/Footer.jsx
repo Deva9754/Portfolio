@@ -10,7 +10,10 @@ const Footer = () => {
           <div className="footer-top">
             <div className="footer-top-left">
               {/* <img src="" alt="footer-logo" /> */}
-              <p>Front-end Developer with 2.9+ years of experience at wipro </p>
+              <p>
+                Front-end Developer with 3.6+ years of experience as a Frontend
+                Developer{" "}
+              </p>
             </div>
             <div className="top-right">
               {/* <div className="footer-email-input">
