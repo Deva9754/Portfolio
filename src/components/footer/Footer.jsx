@@ -26,7 +26,7 @@ const Footer = () => {
           <hr />
           <div className="footer-bottom">
             <p className="footer-bottom-left">
-              © 2024 Devashish sahu. All rights reserved
+              © 2026 Devashish sahu. All rights reserved
             </p>
             <div className="footer-bottom-right">
               <p>Term of services</p>

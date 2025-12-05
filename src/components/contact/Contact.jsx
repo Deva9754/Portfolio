@@ -54,7 +54,7 @@ const Contact = () => {
 
               <div className="contact-detail">
                 <img src={location_icon} alt="" />
-                <p> Pune, Maharastra</p>
+                <p> Bangalore, Karnataka</p>
               </div>
             </div>
           </div>
@@ -67,8 +67,7 @@ const Contact = () => {
             <textarea
               name="message"
               rows="8"
-              placeholder="Enter Your Message"
-            ></textarea>
+              placeholder="Enter Your Message"></textarea>
             <button className="contact-submit" type="submit">
               Submit
             </button>
